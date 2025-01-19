@@ -5,19 +5,19 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "N8oxDBTY#jNw0P3yAg6YJMNhK-NJq3i4hLbX-fkeX58_OBdLCSdE",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
-AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "*Jᴜsᴛ Nᴏᴡ Sᴛᴀᴛᴜs Sᴇᴇɴ Bʏ ᯽Mᴜᴢᴀᴍɪʟ-Mᴜᴢᴀᴍɪʟ-Mᴅ᯽*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS__MSG || "> [🤖]  *͢ʜ͢ᴀ͢ᴊ͢ɪ  ɴ͢ᴏ͢ᴏ͢ʀ͢ɪ ͢ʙ͢ᴏ͢ᴛ  ᴠ͢ɪ͢ᴇ͢ᴡ͢ᴇᴅ ʏ͢ᴏ͢ᴜ͢ʀ s͢ᴛ͢ᴀ͢ᴛ͢ᴜ͢s❄️*",
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "MUZAMIL-ZAKHMI-MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "MUZAMIL-ZAKHMI-MD",
+STICKER_NAME: process.env.STICKER_NAME || "𓆩•.𓇚اوزبــོـیــ ؔـڪ𓇚.•𓆪     .       .            .        𓆰𓍼͢𝐍͢𝐱͢𝐱͢𝐫͢𝐢𓂃.ོ•𓆪",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -37,21 +37,21 @@ LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *MUZAMIL-ZAKHMI*🤠",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for send automatic voices
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
